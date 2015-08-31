@@ -1,2 +1,6 @@
 # Some-fun-stuff
-Plugin for CS 1.6
+Some small plugin for cs 1.6
+
+- Bank System
+
+- Blacklist 
