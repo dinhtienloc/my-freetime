@@ -220,13 +220,19 @@ public say_handle(id){
 	return PLUGIN_CONTINUE
 }
 
-public bank_reset(id){
+public bank_reset(id, level, cid){
+	if(!cmd_access(id, level, cid, 1)){
+		return PLUGIN_HANDLED
+	}
 	console_print(id, "Bank system has been reset");
 	nvault_prune(g_Vault, 0, get_systime());
 	return PLUGIN_HANDLED
 }
 
-public bank_check(id){
+public bank_check(id, level, cid){
+	if(!cmd_access(id, level, cid, 2)){
+		return PLUGIN_HANDLED
+	}
 	new arg[8], pName[32]
 	new szKey[40]
 	new iTotalMoney
@@ -248,7 +254,10 @@ public bank_check(id){
 	return PLUGIN_HANDLED
 }
 
-public bank_set(id){
+public bank_set(id, level, cid){
+	if(!cmd_access(id, level, cid, 3)){
+		return PLUGIN_HANDLED
+	}
 	new arg[30], pName[32], szMount[16], szInput[8]
 	new szKey[40]
 	new iTotalMoney
@@ -277,3 +286,6 @@ public bank_set(id){
 	
 	
 
+/* AMXX-Studio Notes - DO NOT MODIFY BELOW HERE
+*{\\ rtf1\\ ansi\\ deff0{\\ fonttbl{\\ f0\\ fnil Tahoma;}}\n\\ viewkind4\\ uc1\\ pard\\ lang1033\\ f0\\ fs16 \n\\ par }
+*/
