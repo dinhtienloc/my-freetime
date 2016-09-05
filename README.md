@@ -1,7 +1,8 @@
 # All plugins I made (co-made) for CS 1.6 and CS:GO
 A very interesting experience =))
 ## **Notice:**
-All below plugins won't work perfectly unless you have **resources** folder (models, sprites, sounds,...). Contact me to get them if you want. Email: dinhtienloc1996@gmail.com
+All below plugins won't work perfectly unless you have **resources** folder (models, sprites, sounds,...). Contact me to get them if you want.
+Email: dinhtienloc1996@gmail.com
 ## Plugin lists:
 ###   1. Plugins for CS 1.6 (No more coding):
 * [Server's Blacklist](https://github.com/dinhtienloc/My-Freetime/tree/master/cs1.6/blacklist)
