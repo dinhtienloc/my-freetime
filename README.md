@@ -11,4 +11,4 @@ A very interesting experience =))
 * [The Hidden Mode](https://github.com/dinhtienloc/My-Freetime/tree/master/csgo/thehidden/scripting) (70% finished)
 
 ## **Notice:**
-> All below plugins won't work perfectly unless you have **resources** folder (models, sprites, sounds,...). Contact me to get them if you want. Email: **dinhtienloc1996@gmail.com**
+All below plugins won't work perfectly unless you have **resources** folder (models, sprites, sounds,...). Contact me to get them if you want. Email: **dinhtienloc1996@gmail.com**
