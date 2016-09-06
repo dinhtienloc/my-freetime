@@ -10,6 +10,7 @@ Email: dinhtienloc1996@gmail.com
 * [Bank System](https://github.com/dinhtienloc/My-Freetime/tree/master/cs1.6/bank)
 * [~~Minigames~~](https://github.com/dinhtienloc/My-Freetime/tree/master/cs1.6/minigames) (PAUSED/NOT FINISHED)
 * [Original Ghost Mode](https://github.com/dinhtienloc/My-Freetime/tree/master/cs1.6/original-ghost-mode)
+* And some plugins I lost source code :'(
 
 ###   2. Plugins for CS:GO :
 * [The Hidden Mode](https://github.com/dinhtienloc/My-Freetime/tree/master/csgo/thehidden/scripting) (70% finished)
